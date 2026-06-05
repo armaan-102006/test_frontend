@@ -8,7 +8,8 @@ import "@xterm/xterm/css/xterm.css";
 const SOCKET_URL =
   import.meta.env.VITE_SOCKET_URL ??
   import.meta.env.VITE_API_URL ??
-  "http://localhost:8000";
+  "https://c9e2-152-59-80-76.ngrok-free.app
+";
 
 export default function TerminalComponent({ sessionId, onDisconnect }) {
   const terminalDivRef = useRef(null);
