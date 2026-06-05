@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SessionManager from "./components/SessionManager";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL ?? "https://c9e2-152-59-80-76.ngrok-free.app ";
 
 const GLOBAL_STYLE = `
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=JetBrains+Mono:wght@400&display=swap');
