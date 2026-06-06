@@ -19,7 +19,7 @@ export default function SessionManager() {
     try {
       // Hamza's endpoint is GET /session/
       const response = await axios.get(`${API_URL}/session/`, {
-        headers: { Authorization: `Bearer ${getToken()}` },
+        headers: { Authorization: `Bearer ${getToken()}`, "ngrok-skip-browser-warning": "true"},
       });
 
       const data = response.data;
