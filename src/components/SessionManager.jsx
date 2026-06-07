@@ -4,7 +4,7 @@ import axios from "axios";
 import TerminalComponent from "./Terminal";
 import JupyterPanel from "./JupyterPanel";
 
-const API_URL = "https://18b3-152-59-80-149.ngrok-free.app";
+const API_URL = "https://8f25-152-59-78-159.ngrok-free.app";
 
 export default function SessionManager() {
   const [status, setStatus] = useState("idle");
